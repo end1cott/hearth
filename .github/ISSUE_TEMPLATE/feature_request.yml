@@ -1,1 +1,17 @@
-
+name: Feature request
+description: Suggest an improvement to Hearth
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to do?
+      description: Describe the task or problem.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion
+      description: How could Hearth make this easier?
