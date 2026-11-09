@@ -2,7 +2,9 @@
 
 Host a Minecraft Java server from your Windows PC. Choose a world, start the server, and share an address through playit.gg.
 
-Screenshots use sample worlds and player data.
+Screenshots use sample worlds, player data, and address.
+
+![First launch: get an address](assets/setup.png)
 
 ![Hearth server screen](assets/server.png)
 
@@ -24,8 +26,8 @@ This early release is unsigned. Windows may show a SmartScreen warning. Download
 
 1. Install Hearth, or extract the entire portable ZIP and run `Hearth.exe`.
 2. Create a world and choose its Minecraft version and loader.
-3. Start the server and accept the Minecraft EULA when prompted. Hearth downloads the server and Java it needs.
-4. To share the server outside your network, connect a playit.gg account and send players the address shown in Hearth. You only need to set up playit.gg once; Hearth remembers the connection for future launches.
+3. Connect a playit.gg account and get your server address. You only need to set this up once; Hearth remembers the connection for future launches.
+4. Start the server and accept the Minecraft EULA when prompted. Hearth downloads the server and Java it needs. Share the address shown in Hearth with your players.
 
 Players need a compatible Minecraft Java version and any required client-side mods. Your computer must stay on while hosting.
 
