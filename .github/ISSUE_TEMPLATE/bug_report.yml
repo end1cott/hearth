@@ -1,0 +1,48 @@
+name: Bug report
+description: Tell us what went wrong in Hearth
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove keys, passwords, server addresses, and other private details from screenshots and logs. Never upload your data folder."
+  - type: input
+    id: version
+    attributes:
+      label: Hearth version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11, 64-bit"
+    validations:
+      required: true
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft version and loader
+      placeholder: "26.3 / Fabric"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the problem appeared?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or redacted log excerpts
