@@ -2,9 +2,15 @@
 
 Host a Minecraft Java server from your Windows PC. Choose a world, start the server, and share an address through playit.gg.
 
+Screenshots use sample worlds and player data.
+
 ![Hearth server screen](assets/server.png)
 
 ![World selection](assets/worlds.png)
+
+Player details:
+
+![Health, food, experience, and inventory](assets/players.png)
 
 Hearth supports Fabric, Forge, and NeoForge. It keeps worlds, mods, backups, and server settings together, and shows player status from saved world data.
 
